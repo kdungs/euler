@@ -1,8 +1,8 @@
 #ifndef __PRIME_TOOLS__
 #define __PRIME_TOOLS__
 
-#include "stdbool.h"
-#include "stdlib.h"
+#include <stdbool.h>
+#include <stdlib.h>
 
 #define PRIME_TABLE struct prime_table
 #define PT PRIME_TABLE

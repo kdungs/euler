@@ -1,7 +1,7 @@
 #include "prime_tools.h"
-#include "stdbool.h"
-#include "stdio.h"
-#include "stdlib.h"
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 PT *pt_create(int N) {
 	PT *t;
