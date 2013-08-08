@@ -8,4 +8,6 @@ It is easy to show that
 ${1 \times n} = {n \times 1} = n + 1$,
 ${2 \time, n} = {n \time, 2} = \frac{1}{2} (n + 1) \cdot (n + 2)$
 and via induction
-${m \times n} = {n \times m} = \frac{1}{m!} \prod_{k=1}^{m}(n + m) = \frac{(n + m)!}{n! \cdot m!}$.
+${m \times n} = {n \times m} = \frac{1}{m!} \prod_{k=1}^{m}(n + m) = \frac{(n + m)!}{n! \cdot m!} = \binom{n + m}{n}$.
+
+For the special case of the $20 \times 20$ grid, the solution therefore is $\binom{40}{20}$.
