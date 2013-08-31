@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from fractions import Fraction, gcd
+from fractions import Fraction
 from functools import reduce
 from operator import mul
 
