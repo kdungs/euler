@@ -14,11 +14,10 @@ int rotate(int x) {
 
 int main(int argc, char *argv[]) {
     int N = 1000000,
-        num = 0;
+        num = 0,
+        p = 2;
     PT *table = pt_create(N);
-    pt_destroy(table);
 
-    int p = 2;
     while (p) {
         int is_circ = 1,
             rot = rotate(p);
@@ -36,4 +35,5 @@ int main(int argc, char *argv[]) {
     }
 
     printf("%d\n", num);
+    pt_destroy(table);
 }
